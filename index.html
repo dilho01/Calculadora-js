@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+  <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/rest.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+<body>
+<h2 id="conteudo"></h2>
+<div class="container">
+    <div class="ver"></div>
+    <div class="coluna-1">
+        <button  onclick="deletar()">AC</button> 
+        <button onclick="caregar(7)">7</button>
+        <button onclick="caregar(4)">4</button>
+        <button onclick="caregar(1)">1</button>
+        <button onclick="caregar(0)">0</button>
+    </div>
+    <div class="coluna-2">
+        <button onclick="caregar('**')">^</button> 
+        <button onclick="caregar(8)">8</button>
+        <button onclick="caregar(5)">5</button>
+        <button onclick="caregar(2)">2</button>
+        <button onclick="caregar(',')">.</butto>
+    </div>
+    <div class="coluna-3">
+        <button id="%">%</button> 
+        <button onclick="caregar(9)">9</button>
+        <button onclick="caregar(6)">6</button>
+        <button onclick="caregar(3)">3</button>
+        <button onclick="deletar2()"><=</button>
+    </div>
+    <div class="coluna-4">
+        <button onclick="caregar('/')">/</button> 
+        <button onclick="caregar('*')">x</button>
+        <button onclick="caregar('-')">-</button>
+        <button onclick="caregar('+')">+</button>
+        <button onclick="somar()">=</button>
+    </div>
+</div>    
+
+
+
+
+
+    <script src="./src/script/main.js " defer></script>
+</body>
+</html>
